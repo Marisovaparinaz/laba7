@@ -1,0 +1,18 @@
+<html> 
+2  <head> 
+3  <title>js 7-g</title> 
+4 <link rel="stylesheet" type="text/css" href="style.css"> 
+5 <script type="text/javascript" src="script.js"></script> 
+6 <script src="jquery.js"></script> 
+7 </head> 
+8 <body> 
+9   <p> Marisova Farinaz <span class="blink"> 3kurs  </span>   studenti </p> 
+10 <script> 
+11 	function blink_text(){ 
+12 		$('.blink').fadeOut(400); 
+13 		$('.blink').fadeIn(400); 
+14 	} 
+15 	setInterval(blink_text,800); 
+16 </script> 
+17 </body> 
+18 </html> 

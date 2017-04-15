@@ -1,0 +1,10 @@
+<!DOCTYPE html> 
+2 <html lang="kz-Kz"> 
+3  <head> 
+4  <title>js 7-g</title>	 
+5  	 </head> 
+6 <body> 
+7 <input id="accept" name="accept" type="checkbox" value="y"/> Men kabyldaimyn<br>   
+8 <input id="Submit" id="submitbtn" type="submit" value="Usynuga" /> 
+9 </body> 
+10 </html> 

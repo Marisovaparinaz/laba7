@@ -1,0 +1,21 @@
+1 <!DOCTYPE html> 
+2 <html> 
+3  <head> 
+4  	<title>js 7-g</title> 
+5  </head> 
+6 <body> 
+7   <form>  
+8   	<label> MAX 25 CHARACTERS </label> 
+9   	<textarea id="textarea" maxlength="25"></textarea> 
+10   	<span id="rchars">25</span> 
+11   	Tanbalar max sanmen wigary 
+12   </form> 
+13 <script> 
+14 var maxlength =25; 
+15 $('textarea').keyup(function() { 
+16 var textlen = maxlength -$(this).val().length; 
+17 $('#rchars').text(textlen); 
+18 }); 
+19 </script 
+20 </body> 
+21 </html> 
